@@ -113,10 +113,6 @@ id -nG $USER | grep wireshark
 Expected output: `wireshark`
 
 ---
-As a last resort, I am making a VM available for you to use if you run into a lot of problems setting up the pre-lab. Please download the VM and import it as an appliance onto your virtual environment. 
-
-https://uctcloud-my.sharepoint.com/:u:/g/personal/01421155_wf_uct_ac_za/IQC5A2Tu_1qOSL2NuLz9-z4sAeieRSTYPDsBh_kH5JCIndE?e=iyq9JI 
----
 
 ## 3. Repository Cloning
 
@@ -404,3 +400,10 @@ lscpu | grep -E "Model|avx2"
 ```
 
 ...and the exact error message.
+
+---
+
+As a last resort, I am making a VM available for you to use if you run into a lot of problems setting up the pre-lab. Please download the VM and import it as an appliance onto your virtual environment. 
+
+(https://uctcloud-my.sharepoint.com/:u:/g/personal/01421155_wf_uct_ac_za/IQC5A2Tu_1qOSL2NuLz9-z4sAeieRSTYPDsBh_kH5JCIndE?e=iyq9JI) 
+
