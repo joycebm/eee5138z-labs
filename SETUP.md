@@ -3,7 +3,7 @@
 **EEE5138Z — Broadband Communication Networks**  
 **Department of Electrical Engineering · University of Cape Town**
 
-Complete **all sections** and tick off every item in the [verification checklist](#8-verification-checklist) before arriving on Day 1 (Sunday 8 March 2026).
+Complete **all sections** and tick off every item in the [verification checklist](#8-verification-checklist) before arriving on Day 1 (Monday, 9 March 2026).
 
 ---
 
@@ -12,7 +12,7 @@ Complete **all sections** and tick off every item in the [verification checklist
 1. [General Information](#1-general-information)
 2. [Base System](#2-base-system)
 3. [Repository Cloning](#3-repository-cloning)
-4. [Lab 0 — Docker](#4-lab-0--docker)
+4. [Lab 1 — Docker](#4-lab-1--docker)
 5. [Lab 2 — Mininet & POX](#5-lab-1--mininet--pox)
 6. [Lab 3 — OpenAirInterface on SLICES-RI](#6-lab-2--openairinterface-oai-on-slices-ri)
 7. [Lab 4 — Edge AI Blueprint](#7-lab-3--edge-ai-blueprint)
