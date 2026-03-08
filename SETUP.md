@@ -51,7 +51,7 @@ All labs for this course are tested on **Ubuntu 22.04 LTS only**. Ensure your en
 |------------------------|-------|
 | Native Ubuntu 22.04 LTS | Preferred |
 | VirtualBox / VMware VM running Ubuntu 22.04 LTS | Allocate at least 16 GB RAM to the VM |
-| WSL2 with Ubuntu 22.04 LTS | Labs 0–1 only — TUN/TAP interfaces are not supported for Labs 2–3 |
+| WSL2 with Ubuntu 22.04 LTS | Labs 1–2 only — TUN/TAP interfaces are not supported for Labs 3–4 |
 
 > **Note:** No SDR hardware is required — all radio simulation is software-based.
 
