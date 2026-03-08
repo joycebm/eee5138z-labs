@@ -75,7 +75,7 @@ docker images                         # locally cached images
 ### 2.1 Write a Dockerfile
 
 ```bash
-mkdir ~/lab0_webserver && cd ~/lab0_webserver
+mkdir ~/lab1_webserver && cd ~/lab1_webserver
 
 cat > Dockerfile << 'EOF'
 FROM ubuntu:22.04
