@@ -47,6 +47,7 @@ Inside the container:
 ```bash
 cat /etc/os-release
 hostname
+apt update && apt install iproute2
 ip addr show
 exit
 ```
