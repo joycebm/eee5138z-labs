@@ -189,7 +189,7 @@ You will now implement a POX firewall that **blocks traffic between two specific
 
 Follow the tutorial at:
 
-> http://www.anshumanc.ml/networks/2017/09/19/firewall/
+> https://amathuba.uct.ac.za/d2l/le/lessons/166544/lessons/3894016
 
 The tutorial walks you through creating a new POX component (`pox/ext/firewall.py`) that:
 
