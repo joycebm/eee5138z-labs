@@ -33,7 +33,7 @@ This course is offered by the Department of Electrical Engineering at the Univer
 | Lab 1 | Mon 9 Mar | Introduction to Containers | Docker, Docker Compose |
 | Lab 2 | Tue 10 Mar | SDN with Mininet | Mininet, POX, OpenFlow |
 | Lab 3 | Wed 11 Mar | Deploying a 5G SA Network | OpenAirInterface, SLICES-RI |
-| Lab 4 | Thu 12 Mar | Edge AI Blueprint Deployment | Ansible, Docker, JupyterLab, Prometheus |
+| Lab 4 | Thu 12 Mar | Edge AI Blueprint Deployment | Ansible, Docker, JupyterLab, Prometheus, DIGITAfrica |
 
 > **Note:** There is no laboratory session on Day 5 (Fri 13 Mar). That session will be used for project topic proposals and a 6G lecture.
 
