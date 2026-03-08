@@ -26,6 +26,8 @@ Complete **all sections** and tick off every item in the [verification checklist
 
 This course is offered by the Department of Electrical Engineering at the University of Cape Town. It will be presented as a block course running from **9–13 March 2026**. All laboratory sessions will be conducted in the **BTF Lab, 4th Floor, Menzies Building**.
 
+As a last resort, if you struggle with the pre-lab installation/configuration tasks, skip to the end of the page to download a pre-built VM you can use. But please try to go through the steps yourself first. 
+
 ### Lab schedule
 
 | Lab | Day | Title | Core Stack |
