@@ -21,7 +21,7 @@
 ## Getting started
 
 ```bash
-git clone https://github.com/uct-eee/eee5138z-labs.git
+git clone https://github.com/joycebm/eee5138z-labs.git
 cd eee5138z-labs
 ```
 
