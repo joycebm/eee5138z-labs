@@ -41,7 +41,7 @@ You will capture the control-plane signalling between all 5G functions using tsh
 ## tmux quick reference
 
 ```
-tmux new -s lab2        start a session
+tmux new -s lab3        start a session
 Ctrl-b "               split pane horizontally
 Ctrl-b %               split pane vertically
 Ctrl-b ← → ↑ ↓        move between panes
