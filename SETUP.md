@@ -125,7 +125,7 @@ cd eee5138z-labs
 
 ---
 
-## 4. Lab 0 — Docker
+## 4. Lab 1 — Docker
 
 ```bash
 # Remove old Docker installs
@@ -178,7 +178,7 @@ sudo mn -c && sudo mn --test pingall
 ```
 
 ### 5.2 POX SDN controller
-
+Only install in pox was not installed by the mininet command. 
 ```bash
 git clone https://github.com/noxrepo/pox.git ~/pox
 ```
@@ -196,7 +196,7 @@ python3 ~/pox/pox.py --version
 
 ## 6. Lab 3 — OpenAirInterface (OAI) on SLICES-RI
 
-Lab 2 deploys OAI on a **SLICES-RI cloud VM** — your laptop only needs the SLICES CLI, an SSH key, and an account. The OAI Docker images run entirely inside the remote VM.
+Lab 3 deploys OAI on a **SLICES-RI cloud VM** — your laptop only needs the SLICES CLI, an SSH key, and an account. The OAI Docker images run entirely inside the remote VM.
 
 ### 6.1 Create a SLICES-RI account
 
@@ -264,7 +264,7 @@ git clone https://gitlab.inria.fr/slices-ri/latincom-2025.git ~/latincom-2025
 
 ## 7. Lab 4 — Edge AI Blueprint
 
-Lab 3 uses **Ansible** to deploy Docker containers locally. No compilation is needed.
+Lab 4 uses **Ansible** to deploy Docker containers locally. No compilation is needed.
 
 ### 7.1 Install Ansible
 
@@ -299,7 +299,7 @@ docker info
 
 ## 8. Verification Checklist
 
-Tick off every item before **Sunday 8 March**.
+Tick off every item before **Monday 9 March**.
 
 ### 8.1 All labs
 
@@ -392,7 +392,7 @@ Your CPU does not support AVX2. Use a BTF Lab PC.
 
 ## 10. Still Stuck?
 
-Email **joyce.mwangama@uct.ac.za** before 6 March. Include the output of:
+Email **joyce.mwangama@uct.ac.za**. Include the output of:
 
 ```bash
 lsb_release -a
