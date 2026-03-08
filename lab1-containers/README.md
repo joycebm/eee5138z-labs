@@ -239,4 +239,4 @@ Include your name, student number, and relevant screenshots.
 
 ---
 
-*Next → [Lab 1: SDN with Mininet](../lab2-mininet/)*
+*Next → [Lab 2: SDN with Mininet](../lab2-mininet/)*
