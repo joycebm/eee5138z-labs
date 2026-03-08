@@ -127,9 +127,9 @@ Note the subnet (`172.17.0.0/16` by default) and gateway.
 docker network create \
   --driver bridge \
   --subnet 192.168.100.0/24 \
-  lab0_net
+  lab1_net
 
-docker network inspect lab0_net
+docker network inspect lab1_net
 ```
 
 ### 3.3 DNS-based container discovery
@@ -137,8 +137,8 @@ docker network inspect lab0_net
 Start two containers on your custom network:
 
 ```bash
-docker run -d --name node1 --network lab0_net ubuntu:22.04 sleep 600
-docker run -d --name node2 --network lab0_net ubuntu:22.04 sleep 600
+docker run -d --name node1 --network lab1_net ubuntu:22.04 sleep 600
+docker run -d --name node2 --network lab1_net ubuntu:22.04 sleep 600
 ```
 
 Install ping in node1, then ping node2 **by name**:
@@ -151,7 +151,7 @@ docker exec -it node1 ping -c 4 node2
 
 Docker's embedded DNS resolves `node2` to its IP. This is exactly how the OAI AMF, SMF, and UPF find each other in Lab 2.
 
-Now repeat on the **default bridge network** (no `--network lab0_net`):
+Now repeat on the **default bridge network** (no `--network lab1_net`):
 
 ```bash
 docker stop node1 node2 && docker rm node1 node2
@@ -169,7 +169,7 @@ Cleanup:
 
 ```bash
 docker stop node1 node2 && docker rm node1 node2
-docker network rm lab0_net
+docker network rm lab1_net
 ```
 
 ---
@@ -179,7 +179,7 @@ docker network rm lab0_net
 ### 4.1 Define a two-service application
 
 ```bash
-mkdir ~/lab0_compose && cd ~/lab0_compose
+mkdir ~/lab1_compose && cd ~/lab1_compose
 
 cat > docker-compose.yml << 'EOF'
 version: '3.8'
