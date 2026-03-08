@@ -119,7 +119,7 @@ Expected output: `wireshark`
 After setting up your environment, clone the course repository to your local machine. It contains all required lab materials and configuration files.
 
 ```bash
-git clone https://github.com/uct-eee/eee5138z-labs.git
+git clone https://github.com/joycebm/eee5138z-labs.git
 cd eee5138z-labs
 ```
 
