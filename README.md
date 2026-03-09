@@ -12,7 +12,7 @@
 | [Lab 1](./lab1-containers/) | Mon 9 Mar | Introduction to Containers | Docker, Docker Compose |
 | [Lab 2](./lab2-mininet/) | Tue 10 Mar | SDN with Mininet | Mininet, POX, OpenFlow |
 | [Lab 3](./lab3-5g-oai/) | Wed 11 Mar | Deploying a 5G SA Network | OpenAirInterface, SLICES-RI |
-| [Lab 4](./lab4-edge-ai/) | Thu 12 Mar | Edge AI Blueprint Deployment | Ansible, Docker, JupyterLab, Prometheus |
+| [Lab 4](./lab4-edge-ai/) | Thu 12 Mar | Edge AI Blueprint Deployment | Ansible, Docker, JupyterLab, Prometheus, DIGITAfrica|
 
 > Day 5 (Fri 13 Mar) — no lab: project topic proposals + 6G lecture.
 
