@@ -89,7 +89,7 @@ Visit the registration page and follow the instructions:
 
 After creating your account, join the `post5g-beta` project using this link:
 
-> https://portal.slices-ri.eu/invite/post5g-beta?key=OL9PXXTnYKEvCuUS
+> https://portal.slices-ri.eu/invite/post5g-beta?key=bteKbyhC6kbgCoCe 
 
 This gives you access to all project services and the ability to create experiments.
 
