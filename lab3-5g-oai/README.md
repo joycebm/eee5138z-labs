@@ -402,7 +402,7 @@ On your **laptop**:
 
 ```bash
 mkdir -p results
-slices bi scp -r vm1:latincom-2025/results/* results/
+slices bi scp -r vm1:latincom-2025/results results
 ```
 
 Open `results/traffic.pcap` in Wireshark. You should observe the following NGAP message sequence for each UE registration:
