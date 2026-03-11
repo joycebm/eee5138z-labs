@@ -89,7 +89,7 @@ Visit the registration page and follow the instructions:
 
 After creating your account, join the `post5g-beta` project using this link:
 
-> https://portal.slices-ri.eu/invite/post5g-beta?key=OL9PXXTnYKEvCuUS
+> https://portal.slices-ri.eu/invite/post5g-beta?key=bteKbyhC6kbgCoCe 
 
 This gives you access to all project services and the ability to create experiments.
 
@@ -162,7 +162,7 @@ slices pubkey register ~/.ssh/id_ed25519.pub
 ### 3.4 Create the VM
 
 ```bash
-slices bi create vm1 --duration 3h --image "Ubuntu 24.04.1" --flavor medium
+slices bi create vm1 --duration 3h --image "Ubuntu 24.04.3" --flavor medium
 ```
 
 ### 3.5 Wait for the VM to come up
