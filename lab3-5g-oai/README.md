@@ -144,10 +144,10 @@ slices experiment create experiment-tutorial --duration 3h
 
 ### 3.2 Set environment variables
 
-We use the Gent 1 VM site in Belgium (`be-gent1-bi-vm1`):
+We use the Sophia 2 VM site in France (`fr-sophia2-bi-vm1`):
 
 ```bash
-export SLICES_BI_SITE_ID=be-gent1-bi-vm1
+export SLICES_BI_SITE_ID=fr-sophia2-bi-vm1
 export SLICES_EXPERIMENT=experiment-tutorial
 ```
 
@@ -205,6 +205,14 @@ cd latincom-2025
 This installs Docker, tshark, iperf3, IP forwarding configuration, and other required tools.
 
 > **Question 1:** Open `cn/conf/config.yaml`. What PLMN (MCC/MNC) is configured? Open `cn/database/oai_db.sql` — what IMSI values are registered for the two UEs?
+
+Run the following command
+
+```bash
+echo "10.123.157.64 docker-cache.slices-be.eu" | sudo tee -a /etc/hosts
+```
+
+> **Bonus Question:** modifying the `/etc/hosts` file is not conventional, why do we do that here?
 
 ---
 
