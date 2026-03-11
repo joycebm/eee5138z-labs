@@ -162,7 +162,7 @@ slices pubkey register ~/.ssh/id_ed25519.pub
 ### 3.4 Create the VM
 
 ```bash
-slices bi create vm1 --duration 3h --image "Ubuntu 24.04.1" --flavor medium
+slices bi create vm1 --duration 3h --image "Ubuntu 24.04.3" --flavor medium
 ```
 
 ### 3.5 Wait for the VM to come up
